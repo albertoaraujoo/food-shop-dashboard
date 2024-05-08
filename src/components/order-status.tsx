@@ -19,7 +19,7 @@ export const OrderStatus = ({ status }: OrderStatusProps) => {
   return (
     <div className="flex items-center gap-2">
       <span
-        data-testId="badge"
+        data-testid="badge"
         className={`h-2 w-2 rounded-full ${orderStatusMap[status].color}`}
       />
       <span className="font-medium">{orderStatusMap[status].value}</span>

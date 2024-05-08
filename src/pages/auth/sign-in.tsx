@@ -41,7 +41,7 @@ export const SignIn = () => {
         },
       });
     } catch (error) {
-      toast.error("Invalid credentials");
+      toast.error("Invalid credentials.");
     }
   };
 
